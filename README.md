@@ -22,7 +22,7 @@ The goal is to identify the genre, relying on the work by the further expansion 
     * As a shortcut alternative to creating a large dataset with APIs
     * To help new researchers get started in the MIR field
 
-  * The musiXmatch dataset (MXM) provides lyrics for many MSD tracks. The lyrics come in bag-of-words format: each track is described as the word-counts for a dictionary of the top 5,000 words across the set. There are 210,519 training bag-of-words, 27,143 testing ones, as well as the full list of words with total counts across all tracks to measure the relative importance of the top 5,000.
+  * The musiXmatch dataset (MXM)[http://millionsongdataset.com/musixmatch/] provides lyrics for many MSD tracks. The lyrics come in bag-of-words format: each track is described as the word-counts for a dictionary of the top 5,000 words across the set. There are 210,519 training bag-of-words, 27,143 testing ones, as well as the full list of words with total counts across all tracks to measure the relative importance of the top 5,000.
 * What it describes: Each row in the data describes a song, based on the `track_id`.
 * Shape of the data: it is rather large and may need to be stored in a database.
 * Initial assessment:
@@ -37,4 +37,4 @@ The goal is to identify the genre, relying on the work by the further expansion 
 
 ### What challenges do you foresee?
 
-* Wrangling all this data in different formats and sources and possibly adding to that set is going to be a challenge. It will certainly take a toll on my laptop memory so I may need to use cloud computing to get this going. I have a stretch goal of cleaning the data and having it available for others to use on Kaggle or HuggingFace.
+* Wrangling all this data in different formats and sources and possibly adding to that set is going to be a challenge. It will certainly take a toll on my laptop memory so I may need to use cloud computing to get this going. I have a stretch goal of cleaning the data and having it available for others to use on Kaggle or HuggingFace. Need to consider how a new user can add in their data aka need a programmitized workflow/pipeline.
